@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #04146c;
+}
+
+.btn-primary {
+    background-color: #5974ff !important;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input, .label-usuario {
+    border: 1.5px solid #8a9af1 !important;
+    color: #5974ff !important;
+}
+
+.label-usuario {
+    padding: 0;
+    margin: 0;
+    height: 47px;
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 1.5px solid #8a9af1 !important;
+    border-right: none !important;
+    border-bottom: 1.5px solid #8a9af1 !important;
+    border-left: 1.5px solid #8a9af1 !important;
+    background-color: #5974ff;
+}
+
+.input-usuario {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top: 1.5px solid #8a9af1 !important;
+    border-right: 1.5px solid #8a9af1 !important;
+    border-bottom: 1.5px solid #8a9af1 !important;
+    border-left: none !important;
+}
+
+label img {   
+    height: 25px;
+}
+
+.form-label {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #04146c;
+}
+
+.form-text {
+    font-style: italic;
+    font-size: 17.33px;
+    color: #04146c;
+}
+
+.form-check-label {
+    font-size: 24px;
+    color: #04146c;
+    margin-left: 5px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+}
+
+input[type="checkbox"] {
+    height: 23px;
+    width: 23px;
+    margin-right: 10px;
+}
+
+@media(max-width: 768px){
+    .form-text {
+        font-size: 15px;
+    }
+}
